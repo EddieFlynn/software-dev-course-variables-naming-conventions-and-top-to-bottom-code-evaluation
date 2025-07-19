@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let shopper = "Alice";
+let itemsBought = 5;
+let amountSpent = 20;
+let items = "bagels";
+let currency = '$';
+let shopping = shopper + " bought " + itemsBought + items + "for" + currency + amountSpent + ".";
 
-console.log(d);
+console.log(shopping);
